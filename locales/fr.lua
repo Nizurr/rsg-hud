@@ -8,7 +8,7 @@ local Translations = {
     info = {
         getstress = "Vous avez l'air stressé",
         thirsty = "Vous avez l'air d'avoir soif",
-        relaxing = "Vous êtes en train de vous détendre",
+        relaxing = "Vous vous rassasiez",
     }
 
 }
