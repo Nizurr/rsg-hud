@@ -42,10 +42,6 @@
                         <q-icon name="fas fa-microphone" size="19.5px" :style="{color: talkingColor}" />
                     </div>
                     </transition>
-                    <div v-if="showPVP">
-                        <q-circular-progress class="progress" show-value :value="pvp" size="3.75vh" :thickness="0.22" color="black" track-color="black-9" center-color="gray-10">
-                        <q-icon name="fas fa-crosshairs" size="19px" :style="{color: showPVPColor}" />
-                    </div>
                     <div v-if="showTemp">
                         <q-circular-progress class="progress" show-value :value="temp" size="3.75vh" :thickness="0.22" color="white" track-color="grey-8" center-color="gray-10">
                           <template v-slot:default>

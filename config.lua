@@ -5,11 +5,11 @@ Config.MinimumStress = 50 -- Minimum Stress Level For Screen Shaking
 Config.MinimumSpeed = 100 -- Going Over This Speed Will Cause Stress
 
 -- telegrame check settings
-Config.TelegramCheck = 5000 -- amount of milliseconds to check your telegrams
+Config.TelegramCheck = 10000 -- amount of milliseconds to check your telegrams
 
 -- current setup: no minimap when onfoot
-Config.OnFootMinimap = false -- set to true/false to disable/enable minimap when on foot
-Config.OnFootCompass = false -- true = have the minimap set to a compass instead of off or normal minimap
+Config.OnFootMinimap = true -- set to true/false to disable/enable minimap when on foot
+Config.OnFootCompass = true -- true = have the minimap set to a compass instead of off or normal minimap
 
 -- current setup: Normal minimap when on mount
 Config.MounttMinimap = true -- set to false if you want to disable the minimap when on mount
@@ -33,8 +33,8 @@ Config.WearingHat      = 0
 Config.WearingShirt    = 0
 Config.WearingPants    = 0
 Config.WearingBoots    = 0
-Config.WearingCoat     = 15
-Config.WearingOpenCoat = 15
+Config.WearingCoat     = 2
+Config.WearingOpenCoat = 2
 Config.WearingGloves   = 0
 Config.WearingVest     = 0
 Config.WearingPoncho   = 0

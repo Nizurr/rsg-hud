@@ -81,7 +81,7 @@ RegisterNetEvent('hud:server:GainStress', function(amount)
         end
         Player.Functions.SetMetaData('stress', newStress)
         TriggerClientEvent('hud:client:UpdateStress', src, newStress)
-        TriggerClientEvent('RSGCore:Notify', src, Lang:t("info.getstress"), 'primary')
+        TriggerClientEvent('ox_lib:notify', src, {title = Lang:t("info.getstress"), type = 'inform', duration = 5000 })
     end
 end)
 
@@ -102,7 +102,7 @@ RegisterNetEvent('hud:server:GainThirst', function(amount)
             end
         Player.Functions.SetMetaData('thirst', newThirst)
         TriggerClientEvent('hud:client:UpdateThirst', src, newThirst)
-        TriggerClientEvent('RSGCore:Notify', src, Lang:t("info.thirsty"), 'primary')
+        TriggerClientEvent('ox_lib:notify', src, {title = Lang:t("info.thirsty"), type = 'inform', duration = 5000 })
     end
 end)
 
@@ -125,7 +125,7 @@ RegisterNetEvent('hud:server:RelieveStress', function(amount)
         end
         Player.Functions.SetMetaData('stress', newStress)
         TriggerClientEvent('hud:client:UpdateStress', src, newStress)
-        TriggerClientEvent('RSGCore:Notify', src, Lang:t("info.relaxing"), 'primary')
+        TriggerClientEvent('ox_lib:notify', src, {title = Lang:t("info.relaxing"), type = 'inform', duration = 5000 })
     end
 end)
 
